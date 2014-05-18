@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     lita-chm (0.0.1)
-      lita (>= 3.2)
+      lita (>= 3.2.0)
       nokogiri
 
 GEM
