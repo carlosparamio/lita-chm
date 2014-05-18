@@ -6,7 +6,5 @@ require "lita/rspec"
 
 Coveralls.wear!
 
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-  SimpleCov::Formatter::HTMLFormatter,
-]
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start { add_filter "/spec/" }
