@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-chm"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Carlos Paramio"]
   spec.email         = ["hola@carlosparamio.com"]
   spec.description   = %q{Shows a short history lesson of the day from the Computer History Museum.}
@@ -13,13 +13,13 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "lita", ">= 3.2.0"
+  spec.add_runtime_dependency "lita", ">= 4.3"
 
   spec.add_dependency "nokogiri"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "coveralls"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec", ">= 3.0.0.beta1"
+  spec.add_development_dependency "rspec", ">= 3.2"
   spec.add_development_dependency "simplecov"
 end
