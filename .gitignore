@@ -1,4 +1,5 @@
 *.gem
 .bundle
 .coveralls.yml
+.ruby-version
 coverage
