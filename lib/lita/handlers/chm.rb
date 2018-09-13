@@ -28,16 +28,20 @@ module Lita
         Nokogiri::HTML(http_response.body)
       end
 
+      def extract_container(doc)
+        doc.css('.chm-exhibit-container')[0]
+      end
+
       def extract_title(doc)
-        doc.css('.tdihevent p')[0].text
+        extract_container(doc).css('.chm-tdih-entry-title').text
       end
 
       def extract_date(doc)
-        doc.css('.title').text
+        extract_container(doc).css('.chm-tdih-entry-date').text
       end
 
       def extract_desc(doc)
-        doc.css('.tdihevent p')[1].text
+        extract_container(doc).css('.chm-tdih-entry-content').text
       end
 
     end
