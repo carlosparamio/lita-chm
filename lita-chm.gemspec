@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-chm"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Carlos Paramio"]
   spec.email         = ["hola@carlosparamio.com"]
   spec.description   = %q{Shows a short history lesson of the day from the Computer History Museum.}

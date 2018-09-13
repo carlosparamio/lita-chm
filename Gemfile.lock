@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lita-chm (0.0.2)
+    lita-chm (0.0.3)
       lita (>= 4.3)
       nokogiri
 
